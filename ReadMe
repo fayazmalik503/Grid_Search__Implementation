@@ -1,0 +1,12 @@
+Create ReadMe
+Sklearn-Machine Learning Module
+Machine Learning Algorithms have parameters that control the complexity of how models learn. For Example, logistic regression from the sklearn module has parameter C which controls the complexity of the model. Here we learn that using grid search that provides us results on different C values.
+Grid Search
+So we apply grid search which provides us to insert different values on the result basis we chose our best value. Grid search allows us to try different values. We can evaluate all the combinations of sets. This forms a grid of values.
+Higher values of C tell the model, the training data resembles real-world information, and place a greater weight on the training data. While lower values of C do the opposite.
+
+Summary
+To evaluate the performance of our logistic regression model, we made use of the same data that was employed during its training. If the model is too accurate in its representation of those facts, then its ability to forecast previously unknown data may be limited. The term for this type of statistical mistake is "over fitting."
+We can avoid being mislead by the scores on the training data by setting aside a piece of our data and using it especially for the purpose of testing the model. We can do this by setting aside a portion of our data and using it exclusively for the purpose of testing the model. If you want to avoid being mislead and overfitting,
+Future Work
+Next time I will try fit new model and see evaluate the result of C and also try train_test split to see how our model work when unseen data is also applied
